@@ -1,0 +1,13 @@
+#include <iostream>
+
+int main()
+{
+    {
+        int n, i; std::cin >> n;
+        for (i = 0; i < 100; i++) {
+            if (n == 0) break;
+            else n /= 10;
+        }
+        std::cout << i << "\n";
+    }
+} 
